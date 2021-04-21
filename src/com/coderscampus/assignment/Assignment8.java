@@ -32,6 +32,7 @@ public class Assignment8 {
      *   1,000,000 numbers from the list
      * @return Integers from the parsed txt file, 1,000 numbers at a time
      */
+
     public List<Integer> getNumbers () {
         int start, end;
         synchronized (i) {
